@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -43,7 +43,8 @@
           "name": "GraphqlFetcher",
           "componentImportPath": "@plasmicpkgs/plasmic-query"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "seaQhLVS4bbjiGvJJrRwyL",
@@ -56,7 +57,8 @@
       "images": [],
       "indirect": true,
       "globalContextsFilePath": "",
-      "codeComponents": []
+      "codeComponents": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "94js2uNtUqpbuto4RjVnjs",
@@ -287,6 +289,32 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "text-input"
+        },
+        {
+          "id": "8VAXs8-di9",
+          "name": "TestComp",
+          "type": "managed",
+          "projectId": "94js2uNtUqpbuto4RjVnjs",
+          "renderModuleFilePath": "plasmic/simple_light_landing_page/PlasmicTestComp.tsx",
+          "importSpec": {
+            "modulePath": "TestComp.tsx"
+          },
+          "cssFilePath": "plasmic/simple_light_landing_page/PlasmicTestComp.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Ska_iDjcL1",
+          "name": "TestBut",
+          "type": "managed",
+          "projectId": "94js2uNtUqpbuto4RjVnjs",
+          "renderModuleFilePath": "plasmic/simple_light_landing_page/PlasmicTestBut.tsx",
+          "importSpec": {
+            "modulePath": "TestBut.tsx"
+          },
+          "cssFilePath": "plasmic/simple_light_landing_page/PlasmicTestBut.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

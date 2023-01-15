@@ -190,7 +190,7 @@ function PlasmicHeader__RenderFunc(props: {
                   }
                   method={"GET" as const}
                   noLayout={false}
-                  url={"https://api.github.com/users/plasmicapp/repos" as const}
+                  url={"{1231@}" as const}
                 />
 
                 <RightArrowIcon
