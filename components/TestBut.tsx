@@ -37,6 +37,7 @@ function TestBut(props: TestButProps) {
   // By default, we are just piping all TestButProps here, but feel free
   // to do whatever works for you.
   console.log("HEYYYY!")
+  Object.assign(props, {heyoo: "https://heyo"})
   return <PlasmicTestBut {...props} />;
 }
 
